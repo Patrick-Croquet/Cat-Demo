@@ -6,8 +6,8 @@ body
     color:white;
 }
 h1 {
-    color:blue;
-    font-size: 150px;
+    color:royalblue;
+    font-size: 10em;
 }
 
 p
@@ -15,20 +15,26 @@ p
     font-size: 30px;
     background-color: black;
     padding: 15px;
-    width: 70%;
+    width: 95%;
     height: auto;
     text-align: left;
     float: left;
     /* color: white;  */
 }
+
+section {
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
 .paragraphe
 {
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: yellow;
-    padding: 15px;
-    width: 6à;
-    height: auto;
+    padding: 10px;
+    width: 95%;
+    height: 200px;
     text-align: right;
-    float: right;
 }
